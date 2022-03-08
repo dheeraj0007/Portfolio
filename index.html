@@ -8,22 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Login Form</h1>
-    <div class="div1">
-        <form name="LoginForm" method="post">
-            <div>
-                <label for="">User name</label>
-                <input type="text" name="Uname" class="inputText" placeholder="User Name">
-            </div>
-            <div>
-                <label for="">Password</label>
-                <input type="password" name="Pass" class="inputText" placeholder="Password">
-            </div>
-            <div>
-                <input type="button" name="log" id="logButton" value="Login" onclick="myfunction()">
-            </div>
-        </form>
-    </div>
+    <section>
+        <div class="form-container">
+            <h1>LOGIN FORM</h1>
+                <form name="LoginForm" method="post">
+                    <div class="control">
+                        <label for="Uname">User name</label>
+                        <input type="text" name="Uname" class="inputText" placeholder="User Name">
+                    </div>
+                    <div class="control">
+                        <label for="Pass">Password</label>
+                        <input type="password" name="Pass" class="inputText" placeholder="Password">
+                    </div>
+                    <span><input type="checkbox">Remember me.</span>
+                    <div class="control">
+                        <input type="button" name="log" id="logButton" value="Login" onclick="myfunction()">
+                    </div>
+                </form>
+                <div id="link">
+                    <a href="#">Forgot Password</a>
+                </div>
+        </div>
+        
+    </section>
+    
 </body>
 </html>
 <script src="login.js"></script>
