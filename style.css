@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;300&family=Roboto:wght@100;300&family=Varela+Round&display=swap');
 
-<<<<<<< HEAD
 :root {
     --white-color:                  #FFFFFF;
     --primary-color:                #ffc107;
@@ -57,17 +56,6 @@ h6 {
 h1,
 h2 {
   font-weight: var(--font-weight-black);
-=======
-*{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    /* font-family: "Open Sans"; */
-    color: #fff;
->>>>>>> 1a9dae049f80acee3547c46043b1fb62ef71b077
 }
 
 h1 {
@@ -103,20 +91,12 @@ p{
   }
 
 /* login styling */
-<<<<<<< HEAD
 .my-section{
     color: white;
     position: relative;
     height: 100vh;
     width: 100%;
     background:url("images/bg.jpg");
-=======
-section{
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background:url(./images/bg.jpg);
->>>>>>> 1a9dae049f80acee3547c46043b1fb62ef71b077
     background-size: cover;
     background-position: center center;
 }
